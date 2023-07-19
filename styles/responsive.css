@@ -7,9 +7,34 @@
     .nav-items-container {
         flex-direction: column;
     }
+    .nav-items-container{
+        width: 100%;
+    }
+    .logo-container{
+        width: 100%;
+    }
     .nav-items-container a{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img{
    
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .paragraph{
+        text-align: center;
+    }
+
 } 
+
