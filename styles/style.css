@@ -285,6 +285,7 @@ nav {
 }
 .footer-about{
     display: flex;
+    flex-wrap: wrap;
     color: white;
     font-weight: 500;
     justify-content: center;
@@ -295,6 +296,7 @@ nav {
 
 .footer-icon{
     display: flex;
+    flex-wrap: wrap;
     color: white;
     justify-content: center;
     gap: 40px;
@@ -304,6 +306,7 @@ nav {
 
 .footer-policy{
     display: flex;
+    flex-wrap: wrap;
     color: white;
     justify-content: center;
     font-weight: 10;
