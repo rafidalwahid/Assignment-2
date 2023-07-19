@@ -36,5 +36,26 @@
         text-align: center;
     }
 
-} 
+    .video-container h2,.video-container p {
+        text-align: center;
+      }
+    .image-gallery {
+        margin-right: 0; 
+        flex-direction: column;
+        justify-content: center;
+      }
+      .play-games{
+        flex-direction: column;
+      }
+      .play-games-text {
+        width: 100%; /* Full width for text on smaller screens */
+    }
 
+    .play-games-img {
+        width: 100%; /* Full width for image on smaller screens */
+        margin-top: 20px; /* Add margin to separate the image from the text */
+    }
+    .over-img{
+        width: 50px;
+    }
+}
